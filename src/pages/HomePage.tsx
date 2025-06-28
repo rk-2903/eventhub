@@ -89,7 +89,7 @@ const HomePage: React.FC = () => {
                   key={event.id}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.4, delay: 0.1 * parseInt(event.id) }}
+                  transition={{ duration: 0.4, delay: 0.1 }}
                 >
                   <EventCard event={event} />
                 </motion.div>
